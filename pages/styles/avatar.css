@@ -1,0 +1,74 @@
+/* avatar */
+
+.avatar__title {
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 48px;
+    text-align: center;
+    font-weight: 900;
+	color: var(--color-title);
+}
+
+.avatar__img {
+    margin-top: 47px;
+    margin-bottom: 17px;
+}
+
+.avatar__subtitle {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 17px;
+    color: var(--color-title);
+}
+
+.avatar__text {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto';
+	color: var(--color-text);
+    max-width: 440px;
+    margin: 0 72px;
+    margin-bottom: 105px;
+}
+
+.avatar__btn {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+/* avatar */
+
+@media screen and (max-width: 1200px) {
+	.avatar__text {
+		max-width: 320px;
+		margin: 0 50px 90px;
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.avatar__text {
+		max-width: 400px;
+	}
+
+	.avatar__tilte {
+		margin-bottom: 35px;
+	}
+}
+
+@media (max-width: 320px) {
+	.avatar__title {
+		margin-top: 50px;
+		margin-bottom: 25px;
+	}
+
+	.avatar__text {
+		margin: 0px 10px 30px;
+	}
+
+	.avatar__btn {
+		margin-bottom: 50px;
+	}
+}

@@ -1,0 +1,136 @@
+/* about */
+
+.about-wrapper {
+    background: var(--bg-color);
+}
+
+.about__text {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.about__title {
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: var(--color-title);
+    margin-bottom: 30px;
+}
+
+.about__subtitle {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--color-text);
+    margin-bottom: 92px;
+}
+
+.about-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-item__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-item__inner {
+	position: relative;
+	top: -180px;
+}
+
+.about-item__icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.about-item__text {
+    color: var(--color-text);
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 900;
+    max-width: 134px;
+    text-align: center;
+}
+
+.about-item__arrow {
+    position: relative;
+    top: -75px;
+    margin: 0 63px;
+}
+
+.about__btn {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-item__arrow_r {
+	display: none;
+}
+
+.about-item__arrow_b {
+	display: none;
+}
+
+/* about */
+
+@media screen and (max-width: 1200px) {
+	.about__subtitle {
+		margin-bottom: 50px;
+	}
+	.about-item__arrow {
+		display: none;
+	}
+	.about-item__arrow_r {
+		display: block;
+		position: relative;
+		top: -75px;
+		margin: 0 15px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.about-item__arrow {
+		display: none;
+	}
+	.about-item {
+		flex-direction: column;
+	}
+	.about-item__arrow_r {
+		display: none;
+	}
+	.about-item__arrow_b {
+		display: block;
+		top: -65px;
+		position: relative;
+	}
+	.about-item__img {
+		height: 300px;
+	}
+	.about__subtitle {
+		margin-bottom: 100px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.about__subtitle {
+		display: none;
+	}
+	.about__title {
+		margin-bottom: 60px;
+	}
+
+	.about__btn {
+		padding-bottom: 50px;
+	}
+
+	.about__text {
+		padding-top: 50px;
+	}
+}

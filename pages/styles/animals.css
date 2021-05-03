@@ -1,0 +1,34 @@
+/* animals */
+
+.animals {
+}
+
+.animals__title {
+    margin-top: 100px;
+    margin-bottom: 35px;
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: var(--color-title);
+	text-align: center;
+}
+
+.animals__btn {
+    margin-bottom: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* animals */
+
+@media (max-width: 320px) {
+	.animals__btn {
+		margin-bottom: 50px;
+	}
+
+	.animals__title {
+		margin-top: 100px;
+	}
+}
